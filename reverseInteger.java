@@ -31,7 +31,7 @@ public class Solution {
             x = x / 10;  // updating our x integer
         }
 
-        return result;
+        return result; // as our method is int type so we need rerturn
     }
 
     }
