@@ -22,7 +22,7 @@ public class ReverseInteger {
 			                                                    //this 123, and from tail we got 3. Now what will happen when we add 2 after 3 when we come back we have something like 
 			                                                    //30 + 2 = 32 and again we come back with carrying 1 we have 320 + 1 = 321, Integer is reversed.
 
-            if ((newResult - remainder) / 10 != result)   // checking if it's not valid. Return 0.
+            if ((newResult - remainder) / 10 != result)   // if it is invaid we have to return Zero;
             {
                 return 0;
             }
